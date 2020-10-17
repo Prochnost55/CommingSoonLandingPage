@@ -54,7 +54,7 @@ form > input[type='email']:invalid{
         background-position: 75%;
   border:1px solid hsl(0, 93%, 68%);
 }
-form > input[type="email"]:invalid:focus:not(:placeholder-shown) ~ .requirements{
+form > input[type="email"]:invalid:not(:placeholder-shown) ~ .requirements{
   max-height: 200px;
 	padding: 5px 25px;
 }
